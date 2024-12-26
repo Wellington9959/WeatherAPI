@@ -38,7 +38,7 @@ The server should now be running on `http://localhost:5000`
 
 Example:
 ```
-curl "http://127.0.0.1:5000/Milan?start=2024-12-25&end=2024-12-31"
+curl "http://127.0.0.1:5000/weather?location=Milan&start=2024-12-25&end=2024-12-31"
 ```
 location (required) – is the address, partial address or latitude,longitude location for which to retrieve weather data. You can also use US ZIP Codes. If you would like to submit multiple locations in the same request, consider our Multiple Location Timeline Weather API.
 
@@ -57,4 +57,5 @@ When no date1 or date2 is specified, the request will retrieve the forecast at t
 ## Feedback
 
 Feedbacks are higly welcome. If you have feedback on the solution, open an issue or a pull request.
+
 Make sure to leave an upvote if you liked this solution.
